@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaclang"
+version = "0.0.1"
+description = "Minimal jaclang package with a calculator example"
+authors = [ { name = "insoh" } ]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.scripts]
+jaclang-calc = "jaclang.cli:main"
